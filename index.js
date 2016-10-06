@@ -15,7 +15,7 @@ do {
     k++;
 } while (k <= 10);*/
 
-var cats = ['Pushok', 'Barsik', 'Ivanchik'];
+/*var cats = ['Pushok', 'Barsik', 'Ivanchik'];
     cats.push('Puhlik');
 document.write(cats[0]);
 
@@ -35,4 +35,29 @@ var max = {
     name: 'Max',
     age: 3
 }
-document.write(max.name);
+document.write(max.name);*/
+
+/*while (true) {
+    var number = prompt('Enter you number', '');
+    
+if (number == null) {
+    break;
+}
+alert('your number is' + number);
+}
+*/
+/*var age = prompt('возраст?', 18);
+var message = (age < 3) ? 'Здравствуй, малыш!' :
+  (age < 18) ? 'Привет!' :
+  (age < 100) ? 'Здравствуйте!' :
+  'Какой необычный возраст!';
+
+alert( message );*/
+
+var value = prompt('When JS startet?', '');
+
+if (value = 'ecmascript') {
+    alert('Bravo');
+} else {
+    alert('no');
+}
